@@ -9,5 +9,6 @@ public class SingletonPatternTest {
     public void singletonPattern_test() {
         MainWindow mainWindow = MainWindow.getInstance();
         mainWindow.showMessage();
+        
     }
 }
